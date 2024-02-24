@@ -1,7 +1,7 @@
-Name : R Abinaya
-Batch : FSD56WD2-T
-Task : Day12
-
+Name : R Abinaya   
+Batch : FSD56WD2-T   
+Task : Day12   
+  
 ***Task link :***
 
 https://github.com/rvsp/HTML-CSS/tree/master/Tasks

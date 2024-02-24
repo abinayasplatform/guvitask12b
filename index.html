@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FORM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<style>
+   
+    
+    textarea{
+        width:100%;
+        height:100%;
+        padding:15px 20px;
+    }
+    body{
+        padding:15px;
+    }
+    .star{
+       
+        position:sticky,fixed;
+        top:225px;     
+
+    }
+
+    .checked{
+        color:orange;
+    }
+
+    .row1, .row2, .row3, .row4{
+        background-color: lightgray;
+    }
+    
+</style>
+
+  </head>
+  <body>
+    
+    <div class="row">
+        <!--first row (name)-->
+        <div class="col-4">
+            <label><b>Name<span style="color:red">*</span></b></label>
+          <input type="text" class="form-control" aria-label="First name">
+          <small text-muted>First</small>
+        </div>
+        <div class="col-4">
+            <label>
+                
+            </label>
+          <input type="text" class="form-control"  aria-label="First name">
+          <small text-muted>Last</small>  
+        </div>
+       
+    </div>
+
+        <!--email-->
+<br>
+        <div class="row">
+        <div class="col-8">
+            <label for="inputEmail4" class="form-label"><b>Email<span style="color:red">*</span></b></label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+        </div>
+<br/>
+
+
+        <!--experience-->
+        <div class="row">
+            <div class="col">
+                <b>Your Experience<span style="color:red">*</span></b>
+            </div>
+
+            <div class="star">
+                <span class="fa fa-star fa-2x checked"></span>
+                <span class="fa fa-star fa-2x checked"></span>
+                <span class="fa fa-star fa-2x checked"></span>
+                <span class="fa fa-star fa-2x checked"></span>
+                <span class="fa fa-star fa-2x checked"></span>
+            </div>
+            <br>
+            
+                <p>Overall, how would you rate your experience with us?</p>
+               
+            
+        </div>
+
+
+            <!--satisfied-->
+
+            <div class="row">
+                <div class="col">
+                <b>How satisified are you with<span style="color : red"> * </span>
+                </b>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-2">
+                    
+                </div>
+                <div class="col-2 d-flex justify-content-center align-items-center">
+                    Very Unsatisfied
+                </div>
+                <div class="col-2 d-flex justify-content-center align-items-center">
+                    Unsatisfied
+                </div>
+                <div class="col-2 d-flex justify-content-center align-items-center">
+                   Neutral
+                </div>
+                <div class="col-2 d-flex justify-content-center align-items-center">
+                    Satisfied
+                </div>
+                <div class="col-2 d-flex justify-content-center align-items-center">
+                    Very Satisfied
+                </div>
+            </div>
+
+            <!--table satisified-->
+
+            <div class="row row1">
+                <div class="col-2">
+                    Purchase
+                </div>
+                <div class="col-2 d-flex justify-content-center">
+                    <input type="radio"/>
+                 </div>
+                 <div class="col-2 d-flex justify-content-center">
+                     <input type="radio"/>
+                  </div>
+               
+                  <div class="col-2 d-flex justify-content-center">
+                     <input type="radio"/>
+                  </div>
+               
+                  <div class="col-2 d-flex justify-content-center">
+                     <input type="radio"/>
+                  </div>
+               
+                  <div class="col-2 d-flex justify-content-center">
+                     <input type="radio"/>
+                  </div>
+                                     
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-2">
+                    Service
+                </div>
+                <div class="col-2 d-flex justify-content-center">
+                    <input type="radio"/>
+                 </div>
+                 <div class="col-2 d-flex justify-content-center">
+                     <input type="radio"/>
+                  </div>
+               
+                  <div class="col-2 d-flex justify-content-center">
+                     <input type="radio"/>
+                  </div>
+               
+                  <div class="col-2 d-flex justify-content-center">
+                     <input type="radio"/>
+                  </div>
+               
+                  <div class="col-2 d-flex justify-content-center">
+                     <input type="radio"/>
+                  </div>
+                             
+            </div>
+            
+            <div class="row row2">
+                <div class="col-2">
+                    Company Overall
+                </div>
+                <div class="col-2 d-flex justify-content-center">
+                    <input type="radio"/>
+                 </div>
+                 <div class="col-2 d-flex justify-content-center">
+                     <input type="radio"/>
+                  </div>
+               
+                  <div class="col-2 d-flex justify-content-center">
+                     <input type="radio"/>
+                  </div>
+               
+                  <div class="col-2 d-flex justify-content-center">
+                     <input type="radio"/>
+                  </div>
+               
+                  <div class="col-2 d-flex justify-content-center">
+                     <input type="radio"/>
+                  </div>
+                             
+            </div>
+
+
+            <div class="row">
+                <div class="col">
+                <b><br>
+                    How likely are you to<span style="color : red"> * </span>
+                </b>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-2">
+                    
+                </div>
+                <div class="col-2 d-flex justify-content-center align-items-center">
+                    Very Unlikely
+                </div>
+                <div class="col-2 d-flex justify-content-center align-items-center">
+                    Unlikely
+                </div>
+                <div class="col-2 d-flex justify-content-center align-items-center">
+                   Neutral
+                </div>
+                <div class="col-2 d-flex justify-content-center align-items-center">
+                    likely
+                </div>
+                <div class="col-2 d-flex justify-content-center align-items-center">
+                    Very likely
+                </div>
+            </div>
+
+            <div class="row row3">
+                <div class="col-2 ">
+                    Buy from us again
+                </div>
+                <div class="col-2 d-flex justify-content-center">
+                   <input type="radio"/>
+                </div>
+                <div class="col-2 d-flex justify-content-center">
+                    <input type="radio"/>
+                 </div>
+              
+                 <div class="col-2 d-flex justify-content-center">
+                    <input type="radio"/>
+                 </div>
+              
+                 <div class="col-2 d-flex justify-content-center">
+                    <input type="radio"/>
+                 </div>
+              
+                 <div class="col-2 d-flex justify-content-center">
+                    <input type="radio"/>
+                 </div>
+                            
+            </div>
+
+            <div class="row">
+                <div class="col-2">
+                    Recommend our 
+                    products to others
+                </div>
+                <div class="col-2 d-flex justify-content-center">
+                    <input type="radio"/>
+                 </div>
+                 <div class="col-2 d-flex justify-content-center">
+                     <input type="radio"/>
+                  </div>
+               
+                  <div class="col-2 d-flex justify-content-center">
+                     <input type="radio"/>
+                  </div>
+               
+                  <div class="col-2 d-flex justify-content-center">
+                     <input type="radio"/>
+                  </div>
+               
+                  <div class="col-2 d-flex justify-content-center">
+                     <input type="radio"/>
+                  </div>
+                             
+            </div>
+            
+            <div class="row row4">
+                <div class="col-2">
+                    Recommend our company to others
+                </div>
+                <div class="col-2 d-flex justify-content-center">
+                    <input type="radio"/>
+                 </div>
+                 <div class="col-2 d-flex justify-content-center">
+                     <input type="radio"/>
+                  </div>
+               
+                  <div class="col-2 d-flex justify-content-center">
+                     <input type="radio"/>
+                  </div>
+               
+                  <div class="col-2 d-flex justify-content-center">
+                     <input type="radio"/>
+                  </div>
+               
+                  <div class="col-2 d-flex justify-content-center">
+                     <input type="radio"/>
+                  </div>
+                             
+            </div>
+
+           <br>
+
+            <div class="row">
+                <div class="col">
+                    <b> Additional comments or suggestions </b>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <textarea class="comment" >
+
+                    </textarea>
+                </div>
+            </div>
+
+<br>
+            <div class="row">
+                <div class="col">
+                    <button type="button">Submit</button>
+                </div>
+            </div>
+            
+
+</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  </body>
+</html>
